@@ -25,7 +25,7 @@ const listBelanjaan = (data)=>{
   const result = [];
 
   for (let i = 0; i < data.length; i++) {
-    result.push(`- ${data[i].nama} X ${data[i].kuantitas}`);
+    result.push(`- ${data[i].nama} x ${data[i].kuantitas}`);
   }
 
   return result;
