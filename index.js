@@ -29,7 +29,7 @@ const listBelanjaan = (data)=>{
   }
 
   return result;
-}
+};
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
 const totalBelanjaan = (data)=>{
@@ -39,7 +39,7 @@ const totalBelanjaan = (data)=>{
   }
 
   return total;
-}
+};
 
 // ! JANGAN DIMODIFIKASI
 const main = () => {
